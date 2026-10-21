@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Strawberry 🍓</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Tahoma, Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe1ec, #fff5f8, #ffd1e2);
+      color: #853b59;
+      text-align: center;
+      padding: 25px 14px;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 15px auto;
+      background: rgba(255, 255, 255, 0.88);
+      border: 2px solid #ffc1d8;
+      border-radius: 25px;
+      padding: 22px 17px;
+      box-shadow: 0 8px 25px #d97c9b30;
+    }
+
+    h1 {
+      color: #d94d83;
+      font-size: 29px;
+      margin-bottom: 8px;
+    }
+
+    .strawberry {
+      font-size: 55px;
+      margin: 12px;
+    }
+
+    .subtitle {
+      color: #a75b78;
+      line-height: 1.9;
+    }
+
+    button {
+      border: none;
+      border-radius: 30px;
+      background: #e85d91;
+      color: white;
+      padding: 13px 23px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 12px 0;
+      box-shadow: 0 4px 10px #e85d9140;
+    }
+
+    button:hover {
+      background: #ce4077;
+    }
+
+    #letter {
+      display: none;
+      text-align: right;
+      line-height: 2.1;
+      margin-top: 20px;
+      animation: appear 0.8s ease;
+    }
+
+    #letter h2 {
+      color: #d94d83;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .dua {
+      background: #fff0f6;
+      border-right: 4px solid #e85d91;
+      padding: 13px;
+      border-radius: 12px;
+      margin: 16px 0;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .photo-box {
+      background: #fff0f6;
+      border: 2px dashed #e99ab8;
+      border-radius: 15px;
+      padding: 10px;
+      min-width: 0;
+    }
+
+    .photo-box img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 8px;
+    }
+
+    input[type="file"] {
+      width: 100%;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      color: #d94d83;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .heart {
+      font-size: 20px;
+      animation: float 2s infinite ease-in-out;
+      display: inline-block;
+    }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      50% { transform: translateY(-7px); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="strawberry">🍓🎀🍓</div>
+
+    <h1>𝑀𝑦 𝑆𝑡𝑟𝑎𝑤𝑏𝑒𝑟𝑟𝑦</h1>
+
+    <p class="subtitle">
+      هدية صغيرة لقلب كبير 💗<br>
+      لصاحبتي الحلوة اللي وجودها في حياتي نعمة 🫂
+    </p>
+
+    <div class="heart">💗 💕 💗</div>
+
+    <p>عندي رسالة مخصوص ليكي يا فراولتي 🍓</p>
+
+    <button onclick="openLetter()" id="openBtn">
+      افتحي هديتك يا فراولتي 💌
+    </button>
+
+    <div id="letter">
+
+      <h2>إلى أحلى My Strawberry 🍓💗</h2>
+
+      <p>
+        يا أجمل فراولة في الدنيا 🥹💕<br>
+        حبيت أعملك الهدية الصغيرة دي عشان أقولك إنك غالية عندي أوي،
+        وإن وجودك في حياتي من الحاجات اللي بتفرّح قلبي.
+        يا رب نفضل دايمًا أصحاب، ونشارك بعض ضحكنا وفرحتنا،
+        ونكون سند لبعض في الأيام الحلوة والصعبة. 🫂💗
+      </p>
+
+      <p>
+        عايزة أقولك إني فخورة بيكي أوي، وفخورة بكل مرة بتحاولي فيها
+        وبتكمّلي حتى لو تعبتي أو حسيتي إن الطريق صعب.
+        عارفة إن تالتة ثانوي مش سهلة، وإن فيه أيام ممكن تحسي فيها
+        بضغط وتعب، بس عايزاكي تفتكري دايمًا إن كل خطوة صغيرة
+        بتعمليها بتقرّبك من حلمك. 🌷🎓
+      </p>
+
+      <div class="dua">
+        <h2>🤲🏻 دعوة من قلبي ليكي</h2>
+
+        ربنا يشرح صدرك، وينوّر بصيرتك، ويبارك في وقتك ومجهودك،
+        ويرزقك راحة البال والتوفيق، ويفتح عليكي فتوح العارفين،
+        ويكرمك بأعلى الدرجات، ويحقّقلك كل اللي بتتمنيه،
+        ويجبر بخاطرك جبرًا يليق بكرمه، ويجعل تعبك ده فرحة كبيرة
+        تنسيكي كل لحظة صعبة. 💗
+
+        <br><br>
+
+        اللهم لا سهل إلا ما جعلته سهلًا، وأنت تجعل الحزن إذا شئت سهلًا.
+        اللهم وفّقها وسدّد خطاها، وارزقها الفهم والحفظ،
+        وطمّن قلبها، واكتب لها الخير والفرحة والنجاح. آمين يا رب العالمين. 🤍
+      </div>
+
+      <p>
+        ومهما الدنيا ضغطت عليكي، متنسيش إنك مش مجرد درجات أو نتيجة،
+        إنتِ إنسانة جميلة وتستاهلي كل خير.
+        اجتهدي وخدي بالأسباب وسيبي الباقي على ربنا،
+        وافتكري إن قيمتك أكبر بكتير من أي امتحان أو نتيجة. 🫂💕
+      </p>
+
+      <p>
+        يلا يا دكتورة المستقبل 😂🩷
+        ورّينا الشطارة بتاعتك، وخلّي الفراولة بتاعتي ترفع راسها!😂 🍓👩🏻‍🎓
+      </p>
+
+      <p>
+        بحبك يا صاحبتي، وربنا يكتبلك فرحة تعوّض قلبك عن كل تعب،
+        وأشوفك يوم النتيجة بتضحكي من قلبك وبتقولي:
+        الحمد لله، ربنا جبر بخاطري. 🥹💗
+      </p>
+
+      <div class="photos">
+        <div class="photo-box">
+          <span>صورتنا الأولى 📸</span>
+          <input type="file" accept="image/*"
+                 onchange="showPhoto(event, 'photo1')">
+          <img id="photo1" alt="صورتنا الأولى" hidden>
+        </div>
+
+        <div class="photo-box">
+          <span>صورتنا التانية 🎀</span>
+          <input type="file" accept="image/*"
+                 onchange="showPhoto(event, 'photo2')">
+          <img id="photo2" alt="صورتنا التانية" hidden>
+        </div>
+      </div>
+
+      <p class="footer">
+        بالتوفيق يا أجمل فراولة في الدنيا 🍓🎓❤️<br>
+         𝐼 𝐿𝑜𝑣𝑒 𝑦𝑜𝑢 𝑚𝑦 𝑆𝑡𝑟𝑎𝑤𝑏𝑒𝑟𝑟𝑦 🫂💗
+      </p>
+
+    </div>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").style.display = "block";
+      document.getElementById("openBtn").style.display = "none";
+    }
+
+    function showPhoto(event, imageId) {
+      const file = event.target.files[0];
+
+      if (file) {
+        const image = document.getElementById(imageId);
+        image.src = URL.createObjectURL(file);
+        image.hidden = false;
+      }
+    }
+  </script>
+</body>
+</html>
